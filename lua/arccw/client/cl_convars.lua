@@ -143,8 +143,6 @@ ArcCW.ClientConVars = {
     ["arccw_noinspect"]               = { def = 0, usri = true },
 
     ["arccw_dev_crosshair"]           = { def = 0, save = false },
-
-    ["arccw_aimpunch"]           = { def = 1, save = true, desc = "Enable aimpunch: jostling the point of aim when taking damage." },
 }
 
 for name, data in pairs(ArcCW.ClientConVars) do
